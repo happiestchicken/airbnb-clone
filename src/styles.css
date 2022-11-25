@@ -1,0 +1,67 @@
+.nav-div {
+    position: relative;
+    top: 0px;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0px 2px 10px gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.grey {
+    color: grey;
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.air-logo {
+    height: 50%;
+    margin: 20px;
+}
+
+.card {
+    width: 340px;
+    font-size: 20px;
+    flex: 0 0 auto;         /* ADD */
+    display: flex;          /* ADD */
+    flex-direction: column; /* ADD */
+    position: relative;
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+    margin: 30px;
+}
+
+.lance {
+    width: 250px;
+    height: 320px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.star {
+    width: 20px;
+}
+
+.card-stats {
+    display: flex;
+    align-items: center;
+}
+
+.card--badge {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 10px;
+    font-weight: 600;
+}
